@@ -1,0 +1,19 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "exemplo curso",
+  "main": "index.js",
+  "scripts": {
+    "express": "nodemon express.js",
+    "server": "nodemon server.js",
+    "test": "test"
+  },
+  "type": "module",
+  "author": "Luis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemon": "^3.1.5",
+    "path": "^0.12.7"
+  }
+}
